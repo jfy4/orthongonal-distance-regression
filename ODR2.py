@@ -47,7 +47,7 @@ class Fitter(object):
 
         Parameters
         ----------
-        init_beta : initial guess for the parameters.
+        init_beta : (array-like) initial guess for the parameters.
 
         """
         self.beta0 = np.array(init_beta)
